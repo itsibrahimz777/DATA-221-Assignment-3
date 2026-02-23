@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
 # Load the dataset
-df = pd.read_csv("kidney disease.csv")
+df = pd.read_csv("kidney_disease.csv")
 
 # Create feature matrix X and label vector y
 X = df.drop(columns=["classification"])
