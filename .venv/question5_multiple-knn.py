@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-df = pd.read_csv("kidney disease.csv")
+df = pd.read_csv("kidney_disease.csv")
 
 # Create X and y
 X = df.drop(columns=["classification"])
